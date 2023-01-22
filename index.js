@@ -14,7 +14,7 @@ const totale_questsC = require('./models/totale_quests.js');
 app.set('MONGOOSE', process.env.MONGOOSE || "mongodb+srv://taejung:tim5527**@taejung-api.espsj7i.mongodb.net/?retryWrites=true&w=majority")
 app.set('HANGANG-KEY', process.env.HANGANG || "6a56735a6c7461653637474f46616b")
 app.set("DOMAIN", process.env.DOMAIN || "https://api.taejung.xyz")
-app.set('PORT', process.env.PORT || 80);
+app.set('PORT', process.env.PORT || 3000);
 
 app.disable('x-powered-by')
 
